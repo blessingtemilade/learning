@@ -1,0 +1,36 @@
+/* {
+    font-family: 'Courier New', Courier, monospace;
+} */
+body{
+    font-size: 22px;
+    background-color: black;
+}
+header{
+    /* width: 100%; default */
+}
+main{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2{
+    color: blue;
+    border: 1px solid red;
+    width: 50%;
+}
+p{
+    color: purple;
+    font-size: 64px;
+}
+.highlight{
+    background-color: gold;
+    text-transform: uppercase;
+}
+.gray{
+    color: gray;
+
+}
+#second{
+    font-style: italic;
+    color: rgba(00, 00, 255, 0.5);
+    font-size: 2rem;
+}

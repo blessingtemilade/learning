@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(
+        240,240, 240);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 6%;
+    
+    
+}
+.firstdiv{
+    padding: 5%;
+    font-weight: lighter;
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h2{
+    color: rgb(32, 108, 230);
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.seconddiv{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    height: 370px;
+    width: 400px;
+    box-shadow: 0 2px 2px 2px rgba(150, 150, 150, 0.5);
+    margin-right: 120px;
+}
+.inpu{
+    padding: 15px;
+    margin: 8px;
+    width: 370px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 184, 184);
+    color: rgb(169, 167, 167);
+    font-size: 18px;
+    
+}
+.log{
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: block;
+    width: 370px;
+    text-align: center;
+    margin-left: 11px;
+    margin-top: 10px;
+    height: 50px;
+    padding: 13px;
+    background-color: hsl(216, 90%, 57%);
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;  
+    margin-bottom: 20px; 
+}
+.pass{
+    margin-left: 130px;
+    margin-bottom: 25px;
+    color: rgb(41, 105, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.hr{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: rgb(252, 246, 246);
+}
+.create{
+    border: 1px solid rgb(71, 188, 108);
+    border-radius: 5px;
+    display: block;
+    width: 220px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 10px;
+    height: 50px;
+    padding: 13px;
+    background-color: rgb(9, 209, 72);
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;  
+    font-size: 17px;
+}
+.create:hover{
+    background-color: green;
+}
+.page{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.cele{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.cele:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: white;
+    margin-top: 200px;
+}
+
+ul{  
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    max-width: 65rem;
+    margin: auto;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 220px;
+    padding-top: 10px;
+}
+hr{
+    margin: auto;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.firstlist{
+    padding-bottom: 10px;
+    margin-left: 210px;
+}
+.thirdlist{
+    margin-left: 226px;
+}
+.fourthlist{
+    margin-left: 165px;
+}
+.meta{
+    margin-left: 238px;
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

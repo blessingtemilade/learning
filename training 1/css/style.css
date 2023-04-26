@@ -1,0 +1,82 @@
+html{
+    font-size: 22px;
+}
+body{
+    background-color: dimgray;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: aliceblue;
+}
+a:hover, a:active{
+    color: #eee;
+}
+a:visited{
+    color: lightgray;
+}
+table,tr,th,td,caption {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container1{
+    display: flex;
+    /* align-items: flex-end;
+    align-items: flex-start; 
+    align-items: center;
+    align-items: stretch; it stretch by default 
+    flex-direction: column;
+    flex: row; */
+    
+}
+.container2{
+    display: flex;
+}
+.container1 div,.container2 div{
+    border: 1px solid black;
+    padding: 10px;
+    color: aquamarine;
+}
+.box1{
+    flex: 2; 
+    order: 3;
+}
+.box2{
+    flex: 1; 
+    order: 1;
+}
+.box3{
+    flex: 1; 
+    order: 2;
+}
+.container2box{
+    width: 20%;
+
+}
+.containerprac{
+    background-color: cornflowerblue;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.containerprac div{
+    color: aqua;
+    font-size: 28px;
+    padding: 10px;
+    margin: 20px;
+}
+.containerprac ul{
+    list-style-type: none;
+}
+.containerprac ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.containerprac ul li a{
+    text-decoration: none;
+}

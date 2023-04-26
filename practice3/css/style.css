@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid blue;
+}
+nav{
+    background-color: white;
+    color: rgb(22, 47, 96);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.firstdiv{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 10px;
+    margin-left: -65px;
+    
+}
+.firstparagraph{
+
+}
+.secondiv{
+    display: flex;
+    align-items: center;
+}
+.firstlink{
+    padding-right: 60px;
+    text-decoration: none;
+}
+.secondlink{
+    text-decoration: none;
+}
+.secondiv a h3{
+    color: rgb(57, 100, 240);
+}
+.content{
+    background-color: rgb(21, 43, 64);
+    padding-top: 100px;
+    padding-left: 150px;
+    
+}
+.capterra{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.review{
+    color: white;
+    margin-bottom: 15px;
+}
+.find{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 650px;
+    background-color: white;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+    
+}
+.explore{
+    color: white;
+    padding-bottom: 90px;
+}
+.categories{
+    color: rgb(126, 110, 23);
+}
+.who{
+    text-align: center;
+    padding-top: 60px;
+    color: gray;
+}
+.world{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 32px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.contain{
+    border: 1px solid pink;
+}
+
+.software{
+    margin-left: 40%;
+}
+.fact{
+    text-align: center;
+}

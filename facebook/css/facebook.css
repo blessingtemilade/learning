@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.brandlogo{
+    display: flex;
+    flex-direction: row;
+}
+.brand{
+    border: 1px solid gray;
+    border-radius: 35px;
+    background-color: rgb(67, 69, 68);
+    width: 250px;
+    height: 30px;
+    color: rgb(199, 201, 201);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 12px;
+
+}
+.link{
+    padding-left: 50px;
+}
+.sidelink{
+    padding-left: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 300px;
+
+    
+}
+h3{
+    color: rgb(243, 238, 238);
+    font-weight: lighter;
+}
+main{
+    background-color: black;
+    display: flex;
+}
+.middle{
+    margin-left: 40px;
+}
+.contain{
+    background-color: dimgrey;
+    max-width: 600px;
+    max-height:600px ;
+}
+.containersec{
+   display: flex;
+   justify-content: space-evenly;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+}
+.requestsec{
+    margin-left: 30px;
+}
+.request{
+    display: flex;
+
+}
+.confirm{
+    background-color: rgb(41, 97, 238);
+    border: 1px solid rgb(56, 108, 240);
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.remove{
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+}
+.float{
+    float: left;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}

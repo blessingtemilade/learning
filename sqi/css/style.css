@@ -1,0 +1,139 @@
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+header{
+    height: 90px;
+    background-color: white;
+    border-bottom: 1px solid rgb(211, 209, 209);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+.list-container ul{
+    display: flex;
+
+}
+
+.list-container ul li{
+    list-style-type: none;
+    color: rgb(6, 6, 167);
+    padding-right: 40px;
+    font-weight: bolder;
+
+}
+.list:hover{
+    color: rgb(139, 139, 210);
+
+}
+.list-container ul a{
+    text-decoration: none;
+}
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.div-container{
+    display: flex;
+    justify-content: space-around;
+}
+.tech{
+    margin-left: 100px;
+}
+.model{
+    margin-right: 70px;
+}
+.model img{
+    border-radius: 0px 0px 0px 100px;
+    background-size: cover;
+    margin-top: 90px;
+}
+.div-container div h1{
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgb(12, 12, 98);
+    padding-top: 200px;
+}
+.div-container div p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.div-container div h4{
+    background-color: rgb(48, 48, 125);
+    color: white;
+    width: 130px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.div-container div a{
+    text-decoration: none;
+}
+.skype{
+    font-size: 10px;
+    position: fixed;
+    top: 290px;
+    left: 0;
+}
+.faceicon{
+    margin-left: -20px;
+    margin-bottom: -13px;
+
+}
+.glance{
+    background-image: url(../images/DSC_9054-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(305deg,purple ,blue,1.0);
+    margin-top: 20px;
+    min-height: 500px;
+    padding-top: 100px;
+
+}
+.national{
+    color: white;
+    width: 40%;
+    height: 300px;
+    margin-left: 700px;
+    font-size: larger;
+    
+}
+@media only screen and (max-width: 600px){
+    .toggle-button{
+     position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    }
+    .list-container{
+        display: none;
+    }
+    .logo{
+        
+    }
+}
