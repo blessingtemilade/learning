@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/photo-1675781158357-388897ce3214.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
